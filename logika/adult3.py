@@ -11,7 +11,7 @@ if age >= 18:
         print("Jesteś dorosły i dojrzały")
     elif responsible == 'N':
         print("dorośnij ziom")
-    elif responsible not in ['T', 'N']:
-        print("BABOL")
+    else:
+        print("Babol")
 else:
     print("Spadaj na drzewo")
